@@ -1,0 +1,26 @@
+{
+   "LOGIN_EMAIL_NOT_VALID" : {
+      "code" : 1,
+      "messages" : "\"email\" must be a valid email"
+   },
+   "LOGIN_PASSWORD_NOT_VALID" : {
+      "id" : "server.errors.auth.INVALID_EMAIL_PASSWORD",
+      "code" : 2,
+      "messages" : "Reject"
+   },
+   "LOGIN_SUCCESS_2FA" : {
+      "id" : "server.errors.auth.2FA_REQUIRED",
+      "code" : 3,
+      "messages" : "2FA"
+   },
+   "LOGIN_SUCCESS_2FA_LOCKED" : {
+      "id" : "server.errors.auth.OTP_LOCKED",
+      "code" : 4,
+      "messages" : "You have generated too many one-time passwords. Wait 30 seconds before trying again."
+   },
+   "VALIDATE2FA_INVALID" : {
+      "id": "server.errors.auth.INVALID_OTP",
+      "code": 5,
+      "messages": "Your one-time password is incorrect. Try again or request a new token."
+   }
+}

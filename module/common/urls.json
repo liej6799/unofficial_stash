@@ -1,3 +1,5 @@
 {
-    "URL_LOGIN" : "https://api.stashaway.my/api/v1/auth/login"
+    "URL_LOGIN" : "https://api.stashaway.my/api/v1/auth/login",
+    "URL_2FA_SEND": "https://api.stashaway.my/api/v1/auth/2fa/send",
+    "URL_2FA" : "https://api.stashaway.my/api/v1/auth/2fa"
 }

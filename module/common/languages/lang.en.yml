@@ -1,0 +1,8 @@
+en:
+  LOGIN_EMAIL_NOT_VALID: "The email provided is not valid."
+  LOGIN_PASSWORD_NOT_VALID: "The password provided is not valid."
+  LOGIN_SUCCESS_2FA_HEAD: "The credentials provided is correct, code has been sent to this number: %{number}."
+  LOGIN_SUCCESS_2FA_END: "Make sure run validate_2fa method when you are going to use most of the service."
+  LOGIN_SUCCESS_2FA_LOCKED: "You have generated too many one-time passwords. Wait 30 seconds before trying again."
+  VALIDATE2FA_INVALID: "Your one-time password is incorrect. Try again or request a new token."
+  VALIDATE2FA_SUCCESS: "Successfully validate your 2fa. You can access the system now."
