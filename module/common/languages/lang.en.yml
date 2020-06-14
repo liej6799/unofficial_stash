@@ -6,3 +6,7 @@ en:
   LOGIN_SUCCESS_2FA_LOCKED: "You have generated too many one-time passwords. Wait 30 seconds before trying again."
   VALIDATE2FA_INVALID: "Your one-time password is incorrect. Try again or request a new token."
   VALIDATE2FA_SUCCESS: "Successfully validate your 2fa. You can access the system now."
+
+  AUTO_LOGIN_NOT_EXISTS: "There is no login credentials exists, please run login method first."
+  BEARER_NOT_EXISTS: "There is no bearer credentials exists, please run validate_2fa method first."
+  BEARER_EXPIRED: "The bearer provided is not valid or expired, please run login and validate_2fa method again."

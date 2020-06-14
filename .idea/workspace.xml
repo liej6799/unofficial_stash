@@ -27,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dBCek09XiHw71hjM03PqXjDnmo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module/common" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -176,5 +180,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="347" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1592031295225" />
+    <state x="246" y="260" key="SettingsEditor" timestamp="1592137797403">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="246" y="260" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592137797403" />
+    <state x="667" y="124" width="585" height="801" key="find.popup" timestamp="1592131539218">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="667" y="124" width="585" height="801" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1592131539218" />
   </component>
 </project>

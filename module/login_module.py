@@ -45,7 +45,7 @@ def login_module(email, password):
         if smsSent is True:
 
             creds = read_file(get_secret_base_path())
-            write_file(get_secret_base_path(), creds_model(creds['BearerToken'], creds['UserId'], token))
+            write_file(get_secret_base_path(), creds_model(creds['BearerToken'], creds['UserId'], token, email, password))
 
             click.echo(click.style(
                 load_language().t('lang.LOGIN_SUCCESS_2FA_HEAD', number=token_result['smsNumber']),
@@ -76,4 +76,14 @@ def validate_2fa_module(secret):
     # save the data to env
     else:
         click.echo(click.style(load_language().t('lang.VALIDATE2FA_SUCCESS'), fg='green'))
-        write_file(get_secret_base_path(), creds_model(validate_2fa_token, validate_2fa_user_id, ""))
+        creds = read_file(get_secret_base_path())
+        write_file(get_secret_base_path(), creds_model(validate_2fa_token, validate_2fa_user_id, "", creds['Email'], creds['Password']))
+
+
+def login_creds_module():
+    creds = read_file(get_secret_base_path())
+    if creds['Email'] != '' and creds['Password'] != '':
+        login_module(creds['Email'], creds['Password'])
+
+    else:
+        click.echo(click.style(load_language().t('lang.AUTO_LOGIN_NOT_EXISTS'), fg='red'))
