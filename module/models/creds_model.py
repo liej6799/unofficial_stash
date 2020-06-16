@@ -10,3 +10,4 @@ class creds_model(object):
         self.UserId = UserId
         self.OtpToken = OtpToken
         self.Email = Email
+        self.Password = Password

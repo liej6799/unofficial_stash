@@ -2,3 +2,4 @@
 module/common/.env
 module/common/creds.json
 *.ipynb
+*.db

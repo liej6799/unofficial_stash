@@ -3,3 +3,4 @@ requests~=2.23.0
 click~=7.1.2
 python-dotenv~=0.13.0
 colorama
+peewee
