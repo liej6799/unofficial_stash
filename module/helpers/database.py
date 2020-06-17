@@ -7,4 +7,4 @@ def start_database():
 
 def create_table():
     db.create_tables([Goals])
-
+    db.create_tables([Securities])

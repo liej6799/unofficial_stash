@@ -2,7 +2,7 @@
 import click
 import os
 from module.login_module import login_module, validate_2fa_module, login_creds_module
-from module.main_module import dashboard_module
+from module.main_module import dashboard_module, asset_performance_module, etf_detail_module
 from module.helpers.database import start_database, create_table
 
 @click.group()
@@ -39,10 +39,23 @@ def dashboard():
     dashboard_module()
 
 
+@click.command()
+def asset_performance():
+    """- Get current user asset performance amount"""
+    asset_performance_module()
+
+@click.command()
+def etf_detail():
+    """- Get current user asset performance amount"""
+    etf_detail_module()
+
+
 cli.add_command(login)
 cli.add_command(login_creds)
 cli.add_command(validate_2fa)
 cli.add_command(dashboard)
+cli.add_command(asset_performance)
+cli.add_command(etf_detail)
 
 if __name__ == '__main__':
     start_database()
