@@ -1,8 +1,8 @@
 automodinit~=0.16
-requests~=2.23.0
+requests~=2.24.0
 click~=7.1.2
 python-dotenv~=0.13.0
 colorama
 peewee
 tabulate
-i18n
+python-i18n
