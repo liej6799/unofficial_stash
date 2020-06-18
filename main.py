@@ -4,6 +4,8 @@ from module.login_module import login_module, validate_2fa_module, login_creds_m
 from module.main_module import dashboard_module, etf_detail_module
 from module.helpers.database import start_database, create_table
 from module.display_module import  display_all_module
+
+from module.helpers.json import check_creds_exists
 @click.group()
 def cli():
     pass
@@ -53,4 +55,5 @@ cli.add_command(display_all)
 if __name__ == '__main__':
     start_database()
     create_table()
+    check_creds_exists()
     cli()
