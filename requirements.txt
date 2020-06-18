@@ -5,3 +5,4 @@ python-dotenv~=0.13.0
 colorama
 peewee
 tabulate
+i18n
