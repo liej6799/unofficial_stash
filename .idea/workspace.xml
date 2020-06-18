@@ -11,13 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62fdcf5f-0a59-4049-b59c-bad10eb0683d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module/display_module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/common/urls.json" beforeDir="false" afterPath="$PROJECT_DIR$/module/common/urls.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/helpers/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/helpers/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/common/languages/lang.en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/module/common/languages/lang.en.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/main_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/main_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/models/database_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/models/database_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/models/main_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/models/main_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +49,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\unofficial_stash\module\common" />
+      <recent name="D:\Development\unofficial_stash\module" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development\unofficial_stash\module" />
       <recent name="D:\Development\unofficial_stash" />
       <recent name="D:\Development\unofficial_stash\module\common" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development\unofficial_stash\module\common" />
-      <recent name="D:\Development\unofficial_stash\module" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -158,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1151" y="436" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592145565919" />
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592034816929">
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592480416922">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592034816929" />
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1592480416922" />
     <state width="1308" height="466" key="DebuggerActiveHint" timestamp="1592404900167">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

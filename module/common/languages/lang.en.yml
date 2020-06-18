@@ -10,3 +10,9 @@ en:
   AUTO_LOGIN_NOT_EXISTS: "There is no login credentials exists, please run login method first."
   BEARER_NOT_EXISTS: "There is no bearer credentials exists, please run validate_2fa method first."
   BEARER_EXPIRED: "The bearer provided is not valid or expired, please run login and validate_2fa method again."
+
+  LATEST_DASHBOARD: "The Dashboard amount is the latest."
+  LATEST_ETF: "The ETF amount is the latest."
+
+
+  DISPLAY_HEADER_OVERVIEW: "Date: %{date}."
